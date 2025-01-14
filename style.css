@@ -1,18 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f3f3f3;
-}
-.container {
-    text-align: center;
-}
+/* Hides elements with the 'hidden' class */
 .hidden {
     display: none;
 }
+
+/* Center the content */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the buttons */
 button {
     margin: 10px;
     padding: 10px 20px;
@@ -23,6 +20,8 @@ button {
     color: white;
     cursor: pointer;
 }
+
+/* Change button color on hover */
 button:hover {
     background-color: #0056b3;
 }
